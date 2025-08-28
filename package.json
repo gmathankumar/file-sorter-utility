@@ -1,0 +1,33 @@
+{
+    "author": "Mathan Kumar",
+    "bin": {
+        "file-sorter": "./cli.js"
+    },
+    "description": "A simple utility to sort and rename files in a directory by prefixing them with numbers.",
+    "devDependencies": {
+        "@eslint/js": "^9.34.0",
+        "eslint": "^9.34.0",
+        "globals": "^16.3.0",
+        "jest": "^30.1.1"
+    },
+    "files": [
+        "index.js",
+        "cli.js"
+    ],
+    "keywords": [
+        "file",
+        "rename",
+        "sort",
+        "organize",
+        "utility"
+    ],
+    "license": "ISC",
+    "main": "index.js",
+    "name": "file-sorter-utility",
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "test": "jest"
+    },
+    "version": "1.0.0"
+}
